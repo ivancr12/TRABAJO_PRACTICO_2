@@ -67,3 +67,6 @@ if __name__ == "__main__":
         print(f"Data shape: {df.shape}")
     else:
         print("Data validation failed")
+def get_version():
+    """Retorna la versión del módulo."""
+    return "1.0.0"
