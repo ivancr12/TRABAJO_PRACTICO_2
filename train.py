@@ -13,3 +13,4 @@ def train_model(data_path):
     model = RandomForestClassifier()
     model.fit(X_train, y_train)
     return model
+print("Entrenamiento finalizado.")
